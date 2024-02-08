@@ -11,23 +11,25 @@ import AppBox from "../box/pags";
 import { data } from "autoprefixer";
 
 function AppEducation() {
-
   //"title" : 'Educations', year : '2012-2014',text1 : 'Educations',text2 : 'Educations',text3 : 'Educations'
 
   const datas = {
-    title: 'Educations000',
+    title: "Educations000",
     data: [
       {
-        year: '2012-2014', text1: 'High Voc. Cert. (Ratchaburi Technical College)
-        ', text2: 'Faculty of Business Administration', text3: 'Business Computer'
+        year: "2012-2014",
+        text1: "High Voc. Cert. (Ratchaburi Technical College)        ",
+        text2: "Faculty of Business Administration",
+        text3: "Business Computer",
       },
       {
-        year: '2014-2016', text1: 'B.BA. (Southeast Asia University)
-        ', text2: 'Faculty of Business Administration
-        ', text3: 'Business Computer'
-      }
-    ]
-  }
+        year: "2014-2016",
+        text1: "B.BA. (Southeast Asia University)        ",
+        text2: "Faculty of Business Administration        ",
+        text3: "Business Computer",
+      },
+    ],
+  };
 
   console.log(data);
   return (

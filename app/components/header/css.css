@@ -1,0 +1,23 @@
+.leaf {
+  width: 20px;
+  height: 20px;
+  background: url("./leaf.png") no-repeat center center/cover; /* เปลี่ยน '/path/to/leaf-image.png' เป็นที่อยู่ของรูปใบไม้ของคุณ */
+  position: absolute;
+  animation: falling 10s linear infinite;
+  z-index: 5;
+}
+
+.leaf-container {
+  overflow: hidden;
+}
+
+@keyframes falling {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+

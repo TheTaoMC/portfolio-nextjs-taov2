@@ -6,19 +6,73 @@ import {
   faLine,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import useDeviceSize from "../useDeviceSize";
+import Script from "next/script";
+import "./css4.css";
+import SnowStorm from "./SnowStorm";
 
 function AppHeader() {
   const height = useDeviceSize();
-  
+
   const backgroundImageUrl =
     "url(https://scontent.fbkk29-7.fna.fbcdn.net/v/t39.30808-6/422595244_7313944191996107_7886726439985569006_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeFYy5h57JYFS4TP4RnUdbS6DMmchsOyWYwMyZyGw7JZjGbzxGenPyO2ANEY-XJmnsU4av1BJYtftJrQwnBAI3e3&_nc_ohc=Xi2MRZALgvcAX90k8GQ&_nc_ht=scontent.fbkk29-7.fna&oh=00_AfCZ-pzxjWb0421PQwxWBxycaxy6ob-4BheUfJvy2PAUCw&oe=65C6935F)";
 
+  const Snow = () => {
+    return (
+      <div className="wrapper z-10">
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+        <div>
+          <span class="dot"></span>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <header>
+      <Snow />
       <div
-
         style={{
           height: `${height}px`,
           backgroundImage: `linear-gradient(rgba(253, 154 ,58,0.7), rgba(253, 154 ,58,0.7)), ${backgroundImageUrl}`,
@@ -54,8 +108,6 @@ function AppHeader() {
           </div>
         </div>
       )}
-
-      
     </header>
   );
 }

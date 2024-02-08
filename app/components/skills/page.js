@@ -33,17 +33,13 @@ function AppSkills() {
 
         <Card className=" w-96">
           <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2">
-              <div className="text-2xl font-bold">Back-end</div>
-            </Typography>
+            <div className="text-2xl font-bold">Back-end</div>
           </CardBody>
           <CardFooter className="pt-0 flex flex-wrap">
             <div className="bg-black text-white rounded-lg p-2 m-2">
               Express - Node.js
             </div>
-            <div className="bg-black text-white rounded-lg p-2 m-2">
-              MySQL
-            </div>
+            <div className="bg-black text-white rounded-lg p-2 m-2">MySQL</div>
           </CardFooter>
         </Card>
       </div>

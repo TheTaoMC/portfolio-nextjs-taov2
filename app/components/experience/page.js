@@ -40,7 +40,7 @@ function AppExperience() {
 
         <Card className=" w-96">
           <CardBody>
-            <div className="text-2xl font-bold">2016</div>
+            <div className="text-2xl font-bold">2018</div>
             <div className="text-base font-bold">
               <a href="https://webv3.theo.co.th/th/contact-us-th/">
                 THEO Engineering Co, Ltd.
@@ -63,7 +63,7 @@ function AppExperience() {
 
         <Card className=" w-96">
           <CardBody>
-            <div className="text-2xl font-bold">2016</div>
+            <div className="text-2xl font-bold">2020</div>
             <div className="text-base font-bold">
               <a href="https://webv3.theo.co.th/th/contact-us-th/">
                 THEO Engineering Co, Ltd.
@@ -87,7 +87,7 @@ function AppExperience() {
 
         <Card className=" w-96">
           <CardBody>
-            <div className="text-2xl font-bold">2016</div>
+            <div className="text-2xl font-bold">2022+</div>
             <div className="text-base font-bold">
               <a href="https://webv3.theo.co.th/th/contact-us-th/">
                 THEO Engineering Co, Ltd.

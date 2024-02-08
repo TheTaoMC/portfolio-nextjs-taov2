@@ -17,7 +17,7 @@ const useDeviceSize = () => {
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
 
-  return [height];
+  return height;
 };
 
 export default useDeviceSize;

@@ -6,14 +6,12 @@ import {
   faLine,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState, useEffect } from "react";
+
 import useDeviceSize from "../useDeviceSize";
 
 function AppHeader() {
-  const [height] = useDeviceSize();
-
-  console.log(height);
-
+  const height = useDeviceSize();
+  
   const backgroundImageUrl =
     "url(https://scontent.fbkk29-7.fna.fbcdn.net/v/t39.30808-6/422595244_7313944191996107_7886726439985569006_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeFYy5h57JYFS4TP4RnUdbS6DMmchsOyWYwMyZyGw7JZjGbzxGenPyO2ANEY-XJmnsU4av1BJYtftJrQwnBAI3e3&_nc_ohc=Xi2MRZALgvcAX90k8GQ&_nc_ht=scontent.fbkk29-7.fna&oh=00_AfCZ-pzxjWb0421PQwxWBxycaxy6ob-4BheUfJvy2PAUCw&oe=65C6935F)";
 
@@ -56,6 +54,8 @@ function AppHeader() {
           </div>
         </div>
       )}
+
+      
     </header>
   );
 }

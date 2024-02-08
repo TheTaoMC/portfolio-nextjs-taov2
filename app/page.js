@@ -1,11 +1,11 @@
-import AppAbout from "./components/about/AppAbout";
-import AppCertification from "./components/certification/AppCertification";
-import AppEducation from "./components/education/AppEducation";
-import AppExperience from "./components/experience/AppExperience";
-import AppHeader from "./components/header/AppHeader";
-import AppProject from "./components/project/AppProject";
-import AppSkills from "./components/skills/AppSkills";
-import AppWork from "./components/work/AppWork";
+import AppAbout from "./components/about/page";
+import AppCertification from "./components/certification/page";
+import AppEducation from "./components/education/page";
+import AppExperience from "./components/experience/page";
+import AppHeader from "./components/header/page";
+import AppProject from "./components/project/page";
+import AppSkills from "./components/skills/page";
+
 
 function page() {
   return (

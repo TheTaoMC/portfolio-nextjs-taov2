@@ -23,7 +23,7 @@ function AppCertification() {
               React Exercises by W3school
             </div>
             <div className="text-sm font-bold">
-              <div>Test React skills with W3Schools' Exercises.</div>
+              <div>Test React skills with W3Schools Exercises.</div>
             </div>
           </CardBody>
           <CardFooter className="pt-0 flex flex-wrap">
@@ -41,7 +41,7 @@ function AppCertification() {
               MySQL Exercises by W3school
             </div>
             <div className="text-sm font-bold">
-              <div>Test MySQL skills with W3Schools' Exercises.</div>
+              <div>Test MySQL skills with W3Schools Exercises.</div>
             </div>
           </CardBody>
           <CardFooter className="pt-0 flex flex-wrap">
@@ -59,7 +59,7 @@ function AppCertification() {
               HTML Exercises by W3school
             </div>
             <div className="text-sm font-bold">
-              <div>Test HTML skills with W3Schools' Exercises.</div>
+              <div>Test HTML skills with W3Schools Exercises.</div>
             </div>
           </CardBody>
           <CardFooter className="pt-0 flex flex-wrap">
@@ -75,7 +75,7 @@ function AppCertification() {
             <div className="text-2xl font-bold">2023</div>
             <div className="text-base font-bold">CSS Exercises by W3school</div>
             <div className="text-sm font-bold">
-              <div>Test CSS skills with W3Schools' Exercises.</div>
+              <div>Test CSS skills with W3Schools Exercises.</div>
             </div>
           </CardBody>
           <CardFooter className="pt-0 flex flex-wrap">

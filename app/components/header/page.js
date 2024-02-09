@@ -20,51 +20,11 @@ function AppHeader() {
   const Snow = () => {
     return (
       <div className="wrapper z-10">
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
-        <div>
-          <span class="dot"></span>
-        </div>
+        {Array(15).fill().map((_, index) => (
+          <div key={index}>
+            <span className="dot"></span>
+          </div>
+        ))}
       </div>
     );
   };
@@ -75,7 +35,7 @@ function AppHeader() {
       <div
         style={{
           height: `${height}px`,
-          backgroundImage: `linear-gradient(rgba(253, 154 ,58,0.7), rgba(253, 154 ,58,0.7)), ${backgroundImageUrl}`,
+          backgroundImage: `linear-gradient(rgba(253, 154 ,58,0.2), rgba(253, 154 ,58,0.4)), ${backgroundImageUrl}`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",
@@ -83,7 +43,7 @@ function AppHeader() {
           justifyContent: "center",
           alignItems: "center",
           color: "#fff",
-          filter: "blur(10px)",
+          filter: "blur(3px)",
         }}
       ></div>
       {height && (
